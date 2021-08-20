@@ -17,7 +17,7 @@ export default class ScanScreen extends React.Component {
     getCameraPermissions = async () =>{
      // const {status} = await Permissions(Permissions.CAMERA);
      // const {status} = Permissions.askAsync(Permissions.CAMERA);
-     // const {status} = await Permissions.askAsync(Permissions.CAMERA);
+      const {status} = await Permissions.askAsync(Permissions.CAMERA);
      // const {status} = await Permissions.askAsync(Permissions); 
 
 
